@@ -24,6 +24,9 @@
     border: none;
     border-radius: 2px;
 }
+input::placeholder {
+    opacity: .6;
+}
 .todo-list li {
     border-bottom: 1px solid #eee;
     padding: 1rem;
@@ -36,10 +39,18 @@
 .todo-item {
     flex: 8;
 }
+.done .todo-item {
+    text-decoration: line-through;
+    color: #ccc;
+}
+.done .check {
+    visibility: hidden;
+}
 .todo-manage {
     flex: 1;
     display: flex;
     justify-content: space-between;
+    cursor: pointer;
 }
 
 .like {
