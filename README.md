@@ -2,6 +2,7 @@
 2021.6.30 ~ 2021.7.
 
 index.html / style.css / todo.js - 강의를 보며 함께 만든 버전
+
 todo.html / todo-style.css / todo-js.js - 강의 보지않고 복습하며 스스로 만든 버전
 
 ## todo-list 프로젝트로 익힌 기능
@@ -10,7 +11,8 @@ todo.html / todo-style.css / todo-js.js - 강의 보지않고 복습하며 스�
 - md문법 - 순서가 필요하지 않는 목록 생성, 목록 속의 목록 (tab키)
 - js
     - queryselector, addeventlistner로 선택자에 이벤트 추가하기
-    - keypress로 입력한 키보드 값 찾고
+    - keypress로 입력한 키보드 값 찾기
+    - createElement로 요소 생성과 appendChild로 요소 집어넣기
 
 ---
 ## 중요한 부분 복습
