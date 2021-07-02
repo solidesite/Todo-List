@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+/* .wrapper {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+} */
+header {
+    background-color: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15px;
+}
+h1 {
+    color: #fff;
+}
+input {
+    width: 150px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+}
+label {
+    color: #fff;
+}
+
+ul {
+    list-style: none;
+}
+ul li {
+    display: flex;
+    padding: 15px;
+}
+ul li .item {
+    flex: 7;
+}
+ul li .favorite{
+    flex: 1;
+}
+ul li .manage{
+    display: flex;
+    justify-content: space-between;
+    flex: 1;
+}
+.icon-like {
+    color: salmon;
+}
+.icon-check {
+    color: steelblue;
+}
+.icon-clear {
+    color: salmon;
+}
