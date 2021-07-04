@@ -46,12 +46,22 @@ ul li .manage{
     justify-content: space-between;
     flex: 1;
 }
+.done .item {
+    text-decoration: line-through;
+    color: #ccc;
+}
+.done .icon-check {
+    color: #b9b9b9;
+}
 .icon-like {
     color: salmon;
+    cursor: pointer;
 }
 .icon-check {
-    color: steelblue;
+    color: #3fa6df;
+    cursor: pointer;
 }
 .icon-clear {
     color: salmon;
+    cursor: pointer;
 }
