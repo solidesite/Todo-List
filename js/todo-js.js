@@ -3,7 +3,7 @@ const todoList = document.querySelector(".list")
 const likeButton = document.querySelector(".icon-like")
 
 todoInput.addEventListener("keypress", function (e) {
-    if (e.keyCode === 13) {
+    if (e.keyCode === 13 && todoInput.value !== "") {
         generateTodo(todoInput.value)
         todoInput.value = ""
     }
@@ -69,7 +69,19 @@ const generateManage = () => {
         li.classList.toggle("done")
         // li.classList.add("done")
     })
+    icon2.addEventListener("click", (e) => {
+        const li = e.target.parentNode.parentNode;
+        todoList.removeChild(li)
+    })
     span.appendChild(icon1)
     span.appendChild(icon2)
     return span
 }
+
+//전체삭제
+const deliteAll = document.querySelector(".icon-delete")
+deliteAll.addEventListener("click", () => {
+    while (todoList.firstChild) {
+        todoList.removeChild(todoList.firstChild)
+    }
+})
