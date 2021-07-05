@@ -1,43 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>todo-list</title>
+    <title>Todo</title>
+    <link rel="stylesheet" href="css/style.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="./css/todo-style.css">
-    <script defer src="./js/todo-js.js"></script>
 </head>
-
 <body>
     <div class="wrapper">
-        <header>
+        <header class="header">
             <h1>TODO</h1>
             <div class="input-box">
-                <label for="input"></label>
-                <input type="text" id="input" placeholder="what's your to-do?">
+                <label for="todo-input">Todo : </label>
+                <input type="text" placeholder="what's your to-do?" id="todo-input">
             </div>
         </header>
-        <section></section>
-        <ul class="list">
-            <!-- <li>
-                <span class="favorite">
-                    <i class="material-icons icon-like">favorite_border</i>
-                </span>
-                <span class="item">할 일</span>
-                <span class="manage">
-                    <i class="material-icons icon-check">check</i>
-                    <i class="material-icons icon-clear">clear</i>
-                </span>
-            </li> -->
-        </ul>
-        <button>
-            <i class="material-icons icon-delete">delete_forever</i>
-        </button>
+        <section class="section">
+            <ul class="todo-list">
+            </ul>
+        </section>
     </div>
-
+    <script src="./js/todo.js"></script>
 </body>
-
 </html>

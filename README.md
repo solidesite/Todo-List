@@ -1,9 +1,9 @@
 # todo-list 만들기
 2021.6.30 ~ 2021.7.5
 
-index.html / style.css / todo.js - 강의를 보며 함께 만든 버전
+todo.html / style.css / todo.js - 강의를 보며 함께 만든 버전
 
-todo.html / todo-style.css / todo-js.js - 강의 보지않고 복습하며 스스로 만든 버전
+index.html / todo-style.css / todo-js.js - 강의 보지않고 복습하며 스스로 만든 버전
 
 ---
 
